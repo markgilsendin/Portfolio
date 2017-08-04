@@ -1,0 +1,102 @@
+@media (max-width:575px) {
+    body {
+        font-size: .7em;
+    }
+
+    .boxContainerWorks {
+        width: 96%;
+        height: auto;
+    }
+
+    .boxContainerAbout {
+        width: 100%;
+        height: auto;
+    }
+
+
+    /* home page*/
+    /*=========================================================================================================================================================*/
+    #myNav li {
+        padding: 4%;
+    }
+
+    .photoContainer {
+        width: 60%;
+        padding-top: 10%;
+    }
+
+    .greeting {
+        font-size: 4em;
+        margin-top: -15%;
+    }
+
+    .name {
+        font-size: 2.3em;
+    }
+
+    .welcomeGreet {
+        font-size: 1.2em;
+        padding-bottom: 10%;
+    }
+
+    /*========================================================================================================================================================*/
+    /*works page*/
+    /*========================================================================================================================================================*/
+    .worksTitle {
+        font-size: 3em;
+        margin: 10% 0 10% 0;
+    }
+
+    .imageBg {
+        letter-spacing: 0px;
+    }
+    .workInfo {
+        margin-bottom: 35%;
+    }
+    .gameLinkContainer {
+        width: 80%;
+        padding: 0 0 10% 0;
+        right: 10%;
+    }
+
+    /*========================================================================================================================================================*/
+    /*about page*/
+    /*========================================================================================================================================================*/
+    .aboutTitle {
+        font-size: 3em;
+        margin: 10% 0 10% 0;
+    }
+
+    .aboutGreet {
+        font-size: 2em;
+    }
+
+    .aboutMyName {
+        font-size: 1.6em;
+    }
+
+    .aboutMyNickName {
+        font-weight: normal;
+    }
+    .resumeContainer {
+        margin: 10% 0 7% 5%;
+    }
+
+    .resumeTextContainer {
+        text-align: center;
+        width: 100%;
+    }
+
+    .btnResumeContainer {
+        width: 100%;
+        margin: 10% 0 5% 0;
+    }
+
+    .btnResume {
+        padding: 5% 25% 5% 25%;
+    }
+
+    .footer {
+        padding: 15% 0 15% 0;
+    }
+}

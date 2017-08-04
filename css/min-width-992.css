@@ -1,0 +1,95 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        font-size: 1em;
+    }
+
+
+    /* home page*/
+    /*=========================================================================================================================================================*/
+    #myNav li {
+        padding: 2%;
+    }
+
+    .photoContainer {
+        width: 40%;
+        padding-top: 3%;
+    }
+
+    .greeting {
+        font-size: 5em;
+        margin-top: -13%;
+    }
+
+    .name {
+        font-size: 3em;
+    }
+
+    .welcomeGreet {
+        font-size: 1.4em;
+        padding-bottom: 8%;
+        margin-top: -1%;
+    }
+
+    /*========================================================================================================================================================*/
+    /*works page*/
+    /*========================================================================================================================================================*/
+    .worksTitle {
+        font-size: 3em;
+        margin: 7% 0 7% 0;
+    }
+
+    .imageBg {
+        letter-spacing: 0px;
+    }
+
+    .workInfo {
+        margin-bottom: 35%;
+    }
+
+    .gameLinkContainer {
+        width: 80%;
+        padding: 0 0 10% 0;
+    }
+
+    /*========================================================================================================================================================*/
+    /*about page*/
+    /*========================================================================================================================================================*/
+    .aboutTitle {
+        font-size: 3em;
+        margin: 7% 0 7% 0;
+    }
+
+    .aboutGreet {
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    .aboutMyName {
+        font-size: 1.7em;
+        font-weight: bold;
+    }
+
+    .skillsList {
+        width: 90%;
+    }
+
+    .resumeContainer {
+        margin: 10% 0 7% 5%;
+    }
+
+    .resumeTextContainer {
+        text-align: center;
+        width: 100%;
+    }
+
+    .btnResumeContainer {
+        width: 100%;
+        margin: 10% 0 5% 0;
+    }
+
+    .btnResume {
+        padding: 5% 25% 5% 25%;
+    }
+    /*Large devices (desktops, 992px and up)*/
+    /* ipad pro*/
+}

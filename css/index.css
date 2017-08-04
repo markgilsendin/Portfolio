@@ -1,0 +1,494 @@
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    /*background-size: 25px 25px;
+    background-image: linear-gradient(to right, #F5F5F5 1px, transparent 1px), linear-gradient(to bottom, #F5F5F5 1px, transparent 1px);
+    */
+    background: #FAFAFA;
+    margin: 0;
+    padding: 0;
+}
+
+.boxContainerWorks {
+    float: left;
+    width: 46%;
+    height: auto;
+    margin: 2% 2% 5% 2%;
+}
+
+.boxContainerAbout {
+    float: left;
+    width: 50%;
+    height: auto;
+}
+
+.aboutBox {
+    float: left;
+    height: auto;
+}
+
+
+
+/*main page*/
+
+
+/*===========================================================================================================================================================*/
+
+#myNav {
+    position: fixed;
+    z-index: 1;
+    background: #212121;
+    width: 100%;
+    top: 0;
+    border-bottom: 5px solid #BF360C;
+}
+
+.linksContainer {
+    margin-right: 2.5%;
+}
+
+#myNav li {
+    display: inline-block;
+    list-style: none;
+    padding: 1% 1% 1% 1%;
+}
+
+#myNav a {
+    letter-spacing: 1px;
+    color: #BF360C;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#myNav li a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#myNav li.active a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#myNav li a:focus {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.headingBg {
+    background: #212121;
+}
+
+.photoContainer {
+    width: 30%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.artPhoto {
+    width: 100%;
+    height: 100%;
+}
+
+.introMessage {
+    color: #FAFAFA;
+    font-weight: bold;
+    margin: 5%;
+}
+
+.greeting {
+    font-size: 6em;
+    margin: -10% 0 -2% 0;
+}
+
+.name {
+    font-size: 4.5em;
+    color: #BF360C;
+    font-weight: bold;
+}
+
+.welcomeGreet {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom: 5%;
+    letter-spacing: 2px;
+}
+
+
+
+/*end of main page*/
+
+
+/*===========================================================================================================================================================*/
+
+
+/*works page*/
+
+
+/*===========================================================================================================================================================*/
+
+.worksBg {
+    background: #EEEEEE;
+    border: 1px solid #EEEEEE;
+}
+
+.worksTitle {
+    font-size: 3em;
+    text-align: center;
+    color: #212121;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin: 6% 0 5% 0;
+
+    /*
+    background-size: 19px 19px;
+    background-image: linear-gradient(to right, #E0E0E0 1px, transparent 1px), linear-gradient(to bottom, #E0E0E0 1px, transparent 1px);
+    */
+}
+
+.tapNotBg {
+    position: relative;
+    border: 5px solid #E0E0E0;
+    background: #FAFAFA;
+}
+
+.clickMathBg {
+    position: relative;
+    border: 5px solid #E0E0E0;
+    background: #FAFAFA;
+}
+
+.imageBg {
+    width: 100%;
+    padding: 4% 0 5% 0;
+    color: #212121;
+    font-size: 2em;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+    background: #E0E0E0;
+}
+
+.tapNotWorkImage {
+    width: 20%;
+    display: block;
+    margin: auto;
+    margin-bottom: 3%;
+}
+
+.clickMathWorkImage {
+    width: 20%;
+    display: block;
+    margin: auto;
+    margin-bottom: 3%;
+}
+
+.workInfo {
+    margin-top: 5%;
+    display: block;
+    letter-spacing: 1px;
+    padding: 0 5% 0 5%;
+    margin-bottom: 20%;
+}
+
+.gamePlayInfo {
+    text-align: justify;
+    display: block;
+    letter-spacing: 1px;
+}
+
+.gameLinkContainer {
+    bottom: 0;
+    width: 50%;
+    padding: 0 0 5% 0;
+    text-align: center;
+    right: 5%;
+    position: absolute;
+}
+
+.gameLink {
+    display: block;
+    background-color: #DD2C00;
+    color: #FFFFFF;
+    padding: 4% 0 4% 0;
+    text-align: center;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.gameLink:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.gameLink:focus {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+.gameLink:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #FF3D00;
+}
+
+.gameLink:active {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+
+/*end of works page*/
+
+
+/*===========================================================================================================================================================*/
+
+
+/*about me page*/
+
+
+/*===========================================================================================================================================================*/
+
+.aboutSettings {
+    letter-spacing: 1px;
+    color: #424242;
+    border: 1px solid #FAFAFA;
+}
+
+.aboutTitle {
+    font-size: 3em;
+    text-align: center;
+    color: #212121;
+    width: 100%;
+    font-weight: bold;
+    margin: 6% 0 5% 0;
+    /*
+    background-size: 20px 20px;
+    background-image: linear-gradient(to right, #E0E0E0 1px, transparent 1px), linear-gradient(to bottom, #E0E0E0 1px, transparent 1px);
+    */
+}
+
+.aboutMeContainer {
+    padding: 3% 5% 3% 5%;
+}
+
+.myNameContainer {
+    width: 65%;
+    padding-left: 3%;
+    margin: 0 0 5% 0;
+    color: #424242;
+    background: #EEEEEE;
+    padding: 4%;
+}
+
+.aboutGreet {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.aboutMyName {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.aboutMyNickName {
+    font-weight: normal;
+}
+
+.myPictureContainer {
+    width: 35%;
+    height: 35%;
+    background: #EEEEEE;
+    padding: 4%;
+}
+
+.picture {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #212121;
+}
+
+.aboutMe {
+    text-align: justify;
+    display: block;
+    color: #424242;
+}
+
+.skills {}
+
+.skillsTitleContainer {
+    margin: 5%;
+    background: #B3E5FC;
+    padding: 5%;
+}
+
+.skillsTitle {
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: 1px;
+    color: #01579B;
+}
+
+.skillsList {
+    float: left;
+    width: 40%;
+    text-align: center;
+    padding: 5%;
+    border: 2px solid #B3E5FC;
+    margin: 2% 5% 2% 5%;
+    color: #01579B;
+    font-weight: bold;
+}
+
+.skillsList:hover {
+    background-color: #0277BD;
+    color: #FFFFFF;
+    border: 2px solid #0277BD;
+}
+
+.resumeContainer {
+    float: left;
+    height: auto;
+    margin: 25% 0 7% 5%;
+    border: 2px solid #B3E5FC;
+    width: 90%;
+    padding: 5%;
+    font-style: italic;
+}
+
+.resumeTextContainer {
+    text-align: center;
+    width: 100%;
+}
+
+.resumeText {
+    color: #424242;
+}
+
+.btnResumeContainer {
+    text-align: center;
+    margin: 10% 0 5% 0;
+    width: 100%;
+}
+
+.btnResume {
+    letter-spacing: 1px;
+    padding: 5% 20% 5% 20%;
+    font-style: normal;
+    background-color: #DD2C00;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.btnResume:visted {
+    background-color: #DD2C00;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.btnResume:focus {
+    background-color: #DD2C00;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.btnResume:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #FF3D00;
+}
+
+.btnResume:active {
+    background-color: #DD2C00;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+.footer {
+    padding: 8% 0 8% 0;
+    background: #212121;
+}
+
+.linkSeparator {
+    margin: 0 1% 0 1%;
+    color: #616161;
+}
+
+.footerItem {
+    letter-spacing: 1px;
+}
+
+.footerItemLink {
+    color: #616161;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footerItemLink:visited {
+    color: #616161;
+    text-decoration: none;
+}
+
+.footerItemLink:focus {
+    color: #616161;
+    text-decoration: none;
+}
+
+.footerItemLink:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footerItemLink:active {
+    color: #616161;
+    text-decoration: none;
+}
+
+.footerMyNameContainer {
+    letter-spacing: 5px;
+    margin-top: 1%;
+}
+
+.footerMyName {
+    color: #FAFAFA;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+
+
+/*end of about page*/
+
+
+/*===========================================================================================================================================================*/
+
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+
+/*
+#width{
+position:fixed;
+top:0;
+color:white;
+z-index:2;
+}
+#height{
+position:fixed;
+top:5%;
+z-index:2;
+color:white;
+}
+
+
+*/
